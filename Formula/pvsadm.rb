@@ -1,24 +1,24 @@
 class Pvsadm < Formula
   desc "Tool for managing the IBM Power Systems Virtual Servers"
   homepage "https://github.com/ppc64le-cloud/pvsadm"
-  version "0.1.23"
+  version "0.1.24"
   license "Apache-2.0"
   on_macos do
     on_intel do
-      url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.1.23/pvsadm-darwin-amd64.tar.gz"
-      sha256 "a3d722192d1f4334c255b537441488e1f374be78929e8815d2e3bc4266a7ca0f"
+      url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.1.24/pvsadm-darwin-amd64.tar.gz"
+      sha256 "79b6f34a72a921f7d847a04bae0ac9743caa27bd720b6ae1fbf2956ed7e0f39f"
     end
 
     on_arm do
-      url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.1.23/pvsadm-darwin-arm64.tar.gz"
-      sha256 "5a89bc9bcac112b55aa726820c5f0fd5e0fe3fc6d6966dc6f26f27ffb8efd3fc"
+      url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.1.24/pvsadm-darwin-arm64.tar.gz"
+      sha256 "00fff4832efba48131840215af9107178e8b3de5c2c48ab6c64d3a680a693e30"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.1.23/pvsadm-linux-amd64.tar.gz"
-      sha256 "27e02992ed53c37dfc01da1ee3ed7d14a8bd65b0e1d069883e9a3980da0e59bf"
+      url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.1.24/pvsadm-linux-amd64.tar.gz"
+      sha256 "3bb3e49e58bed66c3fc89329a1dfc6623262b22f7e4b62c66c835edfae7f3d22"
     end
   end
 
